@@ -1,3 +1,34 @@
+# Plant Catalog Monorepo
+
+This project is a monorepo for a Plant Catalog application, featuring a robust Express.js backend (TypeScript, MongoDB/Mongoose) and a Next.js frontend. The backend provides a RESTful API for managing plants and categories, with strong validation and clean separation of concerns.
+
+## API Overview
+
+### Plant Endpoints
+
+- **POST /plants** — Create a new plant. Requires name, category, and validates all fields.
+- **PUT /plants/:id** — Update an existing plant by ID. Only provided fields are updated, with validation.
+- **DELETE /plants/:id** — Delete a plant by ID.
+- **GET /plants** — Get a paginated list of plants (basic info).
+- **GET /plants/:id** — Get a plant by its ID (with populated category).
+
+### Category & Common Endpoints
+
+- **GET /common/categories** — Get all categories (name and _id only).
+- **GET /common/suggest?q=** — Get search suggestions for plant/category names.
+- **GET /common/filter?category=&minPrice=&maxPrice=&available=** — Filter plants by category, price, and availability.
+
+## Method Documentation
+
+Each controller method is documented in its source file with JSDoc comments, describing:
+- Purpose of the method
+- Route and HTTP method
+- Required and optional parameters
+- Response format
+- Error conditions
+
+See `apps/apis/src/controllers/plant.controller.ts` and `apps/apis/src/controllers/common.controller.ts` for details.
+
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.
