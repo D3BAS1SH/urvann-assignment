@@ -1,0 +1,59 @@
+{
+    "plant_categories": [
+        {
+            "id": 1,
+            "category": "Food Plants",
+            "description": "Plants cultivated primarily for human consumption, including vegetables, fruits, and edible roots."
+        },
+        {
+            "id": 2,
+            "category": "Crops and Cereals",
+            "description": "Grasses grown for their edible grains, such as wheat, rice, barley, and maize."
+        },
+        {
+            "id": 3,
+            "category": "Oil Plants",
+            "description": "Plants cultivated for extraction of oils used in cooking, industry, or cosmetics."
+        },
+        {
+            "id": 4,
+            "category": "Spices",
+            "description": "Plants whose parts are used to flavor, color, or preserve food, such as pepper, cardamom, and cinnamon."
+        },
+        {
+            "id": 5,
+            "category": "Beverage Plants",
+            "description": "Plants used to produce drinks, including tea, coffee, and cocoa."
+        },
+        {
+            "id": 6,
+            "category": "Fibre Plants",
+            "description": "Plants grown for their fibers, used in textiles, ropes, and other materials."
+        },
+        {
+            "id": 7,
+            "category": "Medicinal Plants",
+            "description": "Plants valued for their therapeutic properties and use in traditional and modern medicine."
+        },
+        {
+            "id": 8,
+            "category": "Industrial Plants",
+            "description": "Plants cultivated for industrial uses, such as producing raw materials for manufacturing."
+        },
+        {
+            "id": 9,
+            "category": "Fodder Plants",
+            "description": "Plants grown specifically to feed livestock, including grasses and legumes."
+        },
+        {
+            "id": 10,
+            "category": "Ornamental and Decorative Plants",
+            "description": "Plants cultivated for decorative purposes in gardens and landscapes."
+        },
+        {
+            "id": 11,
+            "category": "Cacti and Succulents",
+            "description": "Water-storing plants adapted to arid environments, popular as houseplants and in xeriscaping."
+        }
+    ]
+}

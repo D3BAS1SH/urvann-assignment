@@ -1,0 +1,1000 @@
+{
+    "plants": [
+        {
+            "name": "Aglaonema",
+            "images": [],
+            "description": "Also known as Chinese Evergreen, it's a popular decorative plant with large, glossy oval-shaped leaves.",
+            "category": [10],
+            "availability": 42,
+            "price": 0,
+            "instruction": ["Prefers low to medium indirect light and well-drained, peaty soil. Water when the top inch of soil is dry."],
+            "benefits": ["Noted in your list as an 'excellent air purifier'."]
+        },
+        {
+            "name": "Aloe Vera",
+            "images": [],
+            "description": "A succulent plant species of the genus Aloe, widely known for its thick, fleshy leaves.",
+            "category": [7],
+            "availability": 88,
+            "price": 0,
+            "instruction": ["Requires bright, indirect sunlight and sandy, well-draining soil. Water deeply but allow soil to dry out between waterings."],
+            "benefits": ["The gel from its leaves is widely used for soothing skin burns, and it has various other medicinal applications."]
+        },
+        {
+            "name": "Amla (Indian Gooseberry)",
+            "images": [],
+            "description": "A deciduous tree known for its small, tart, green fruits.",
+            "category": [7],
+            "availability": 58,
+            "price": 0,
+            "instruction": ["Grows best in deep, fertile soil with good drainage. Requires full sunlight."],
+            "benefits": ["Extremely rich in Vitamin C, it's a cornerstone of traditional Ayurvedic medicine."]
+        },
+        {
+            "name": "Anise",
+            "images": [],
+            "description": "A flowering plant in the parsley family, known for its sweet, aromatic seeds that have a licorice-like flavor.",
+            "category": [4],
+            "availability": 73,
+            "price": 0,
+            "instruction": ["Plant in light, fertile, well-drained soil in a sunny location."],
+            "benefits": ["Widely used as a culinary spice in baking and drinks. Also used for digestive health."]
+        },
+        {
+            "name": "Areca Palm",
+            "images": [],
+            "description": "A popular indoor palm with arching fronds, giving it a lush, tropical appearance.",
+            "category": [10],
+            "availability": 55,
+            "price": 0,
+            "instruction": ["Prefers bright, indirect light and well-draining soil. Keep the soil lightly moist."],
+            "benefits": ["Acts as a natural air humidifier and is effective at removing airborne toxins."]
+        },
+        {
+            "name": "Arjuna",
+            "images": [],
+            "description": "A large, evergreen tree, primarily found in the Indian subcontinent.",
+            "category": [7],
+            "availability": 35,
+            "price": 0,
+            "instruction": ["Requires deep, moist alluvial loam and is often found along riverbanks. Needs ample space and sunlight to grow."],
+            "benefits": ["The bark is used in traditional medicine, primarily for cardiovascular health."]
+        },
+        {
+            "name": "Ashwagandha",
+            "images": [],
+            "description": "An evergreen shrub in the nightshade family, also known as 'Indian Ginseng'.",
+            "category": [7],
+            "availability": 67,
+            "instruction": ["Grows in dry, stony soil with plenty of sun. It is a hardy, drought-tolerant plant."],
+            "benefits": ["A popular adaptogen used in Ayurvedic medicine to reduce stress and anxiety."]
+        },
+        {
+            "name": "Babyl",
+            "images": [],
+            "description": "A type of fodder grass or legume used for animal feed.",
+            "category": [9],
+            "availability": 110,
+            "instruction": ["Typically sown in prepared fields and requires conditions suitable for pasture grasses."],
+            "benefits": ["Provides nutritious forage for livestock."]
+        },
+        {
+            "name": "Bamboo",
+            "images": [],
+            "description": "A fast-growing evergreen perennial in the grass family, known for its strong, hollow stems.",
+            "category": [8],
+            "availability": 95,
+            "instruction": ["Thrives in moist, well-drained soil. Some species can be invasive, so containment is recommended."],
+            "benefits": ["Extremely versatile industrial material used for construction, textiles, paper, and food."]
+        },
+        {
+            "name": "Banana",
+            "images": [],
+            "description": "An elongated, edible fruit produced by several kinds of large herbaceous flowering plants.",
+            "category": [1],
+            "availability": 140,
+            "instruction": ["Requires rich, fertile soil, high humidity, and consistent moisture in a warm, sunny climate."],
+            "benefits": ["A staple food source rich in potassium and dietary fiber."]
+        },
+        {
+            "name": "Barley",
+            "images": [],
+            "description": "A major cereal grain, a member of the grass family.",
+            "category": [2, 5, 9],
+            "availability": 220,
+            "instruction": ["A hardy crop that can grow in a variety of climates. Planted in spring or fall."],
+            "benefits": ["Used as animal fodder, for malting in beer and whiskey production, and in various food products."]
+        },
+        {
+            "name": "Basil",
+            "images": [],
+            "description": "A culinary herb of the mint family, known for its aromatic leaves.",
+            "category": [7],
+            "availability": 82,
+            "instruction": ["Plant in a sunny location with well-drained soil. Water regularly and pinch back tips to encourage bushy growth."],
+            "benefits": ["A popular culinary herb, especially in Italian cuisine. Also has medicinal uses due to its antioxidant properties."]
+        },
+        {
+            "name": "Black Pepper",
+            "images": [],
+            "description": "A flowering vine cultivated for its fruit, which is dried and used as a spice and seasoning.",
+            "category": [4],
+            "availability": 98,
+            "instruction": ["Requires a hot, humid climate with plenty of rain and support structures to climb."],
+            "benefits": ["One of the world's most traded spices, used to add flavor to nearly any savory dish."]
+        },
+        {
+            "name": "Bougainvillea",
+            "images": [],
+            "description": "A genus of thorny ornamental vines and bushes known for their colorful, paper-like bracts that surround the actual flower.",
+            "category": [10],
+            "availability": 65,
+            "instruction": ["Thrives in full sun and well-drained soil. It is drought-tolerant once established."],
+            "benefits": ["A vibrant and hardy decorative plant, perfect for adding color to gardens and walls."]
+        },
+        {
+            "name": "Brahmi",
+            "images": [],
+            "description": "A perennial, non-aromatic herb that typically grows in wet, tropical environments.",
+            "category": [7],
+            "availability": 48,
+            "instruction": ["Can be grown in boggy soil or even in shallow water, in a partially shaded location."],
+            "benefits": ["Used in Ayurvedic medicine as a memory enhancer and to support cognitive function."]
+        },
+        {
+            "name": "Cardamom",
+            "images": [],
+            "description": "A spice made from the seeds of several plants in the ginger family, known for its intense, aromatic flavor.",
+            "category": [4],
+            "availability": 66,
+            "instruction": ["Grows in the shade of tall forest trees in humid, tropical climates."],
+            "benefits": ["A common ingredient in Indian and Middle Eastern cooking, used in both sweet and savory dishes."]
+        },
+        {
+            "name": "Carrot",
+            "images": [],
+            "description": "A root vegetable, typically orange in color, though other colors exist.",
+            "category": [1],
+            "availability": 180,
+            "instruction": ["Plant in loose, sandy soil to allow the root to grow straight. Keep soil moist."],
+            "benefits": ["Excellent source of Vitamin A (from beta-carotene), fiber, and antioxidants."]
+        },
+        {
+            "name": "Cast-Iron Plant",
+            "images": [],
+            "description": "An extremely hardy houseplant with large, arching, dark green leaves.",
+            "category": [10],
+            "availability": 39,
+            "instruction": ["Tolerates very low light and infrequent watering, making it ideal for beginners."],
+            "benefits": ["Known for its ability to survive in conditions where other plants would not, adding greenery to difficult spots."]
+        },
+        {
+            "name": "Cauliflower",
+            "images": [],
+            "description": "A vegetable in the Brassicaceae family, which also includes broccoli and cabbage. The head, or 'curd', is the edible part.",
+            "category": [1],
+            "availability": 130,
+            "instruction": ["A cool-season crop that requires consistent moisture and fertile soil."],
+            "benefits": ["Rich in vitamins C and K and a good source of fiber."]
+        },
+        {
+            "name": "Cereus",
+            "images": [],
+            "description": "A genus of large, columnar cacti, many of which are night-blooming.",
+            "category": [11],
+            "availability": 25,
+            "instruction": ["Requires full sun and very well-draining soil. Water sparingly, especially in winter."],
+            "benefits": ["Striking architectural plants for desert landscaping and large containers."]
+        },
+        {
+            "name": "Chili",
+            "images": [],
+            "description": "The fruit of plants from the genus Capsicum, known for its spicy heat.",
+            "category": [4],
+            "availability": 115,
+            "instruction": ["Plant in a sunny, warm location with well-drained soil. Water regularly."],
+            "benefits": ["A fundamental spice in many cuisines worldwide, providing flavor and heat."]
+        },
+        {
+            "name": "Cinnamon",
+            "images": [],
+            "description": "A spice obtained from the inner bark of several tree species from the genus Cinnamomum.",
+            "category": [4],
+            "availability": 85,
+            "instruction": ["The trees are grown for two years and then coppiced, with the bark harvested from the resulting shoots."],
+            "benefits": ["Used in both sweet and savory foods, valued for its warm, aromatic flavor and potential health benefitss."]
+        },
+        {
+            "name": "Clove",
+            "images": [],
+            "description": "The aromatic flower buds of a tree in the family Myrtaceae.",
+            "category": [4, 7],
+            "availability": 92,
+            "instruction": ["Clove trees grow in tropical climates and require high rainfall."],
+            "benefits": ["A pungent, warming spice used in cooking and baking. Also has antiseptic and analgesic properties."]
+        },
+        {
+            "name": "Cluster Bean (Guar)",
+            "images": [],
+            "description": "An annual legume, the plant is a valuable source of guar gum.",
+            "category": [9],
+            "availability": 105,
+            "instruction": ["A hardy, drought-tolerant crop that grows well in sandy soils."],
+            "benefits": ["Primarily grown as fodder for livestock and for the production of guar gum, a key industrial thickener."]
+        },
+        {
+            "name": "Cocoa",
+            "images": [],
+            "description": "The dried and fermented seed of Theobroma cacao, from which chocolate is made.",
+            "category": [5],
+            "availability": 70,
+            "instruction": ["The cacao tree grows in the understory of tropical rainforests, requiring shade and high humidity."],
+            "benefits": ["The primary ingredient for chocolate. Rich in antioxidants."]
+        },
+        {
+            "name": "Coconut",
+            "images": [],
+            "description": "The fruit of the coconut palm, valued for its water, milk, oil, and meat.",
+            "category": [3, 5],
+            "availability": 110,
+            "instruction": ["Coconut palms thrive in sandy soils and require high humidity and regular rainfall in tropical climates."],
+            "benefits": ["A highly versatile plant providing food, drink, and oil. The husk is used for coir fiber."]
+        },
+        {
+            "name": "Coffee",
+            "images": [],
+            "description": "A brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.",
+            "category": [5],
+            "availability": 125,
+            "instruction": ["Coffee plants are typically grown in shaded, high-altitude regions in a belt around the equator."],
+            "benefits": ["One of the world's most popular beverages, known for its stimulating effect due to caffeine."]
+        },
+        {
+            "name": "Coir",
+            "images": [],
+            "description": "A natural fiber extracted from the outer husk of coconuts.",
+            "category": [6],
+            "availability": 150,
+            "instruction": ["This is a product derived from the coconut plant, not a plant itself."],
+            "benefits": ["Used to make ropes, mats, brushes, and as a growing medium in horticulture."]
+        },
+        {
+            "name": "Coriander",
+            "images": [],
+            "description": "An annual herb in the celery family. All parts are edible, but the fresh leaves (cilantro) and dried seeds are most common.",
+            "category": [4, 7],
+            "availability": 135,
+            "instruction": ["Grows best in a sunny spot with well-drained soil. It has a short life cycle."],
+            "benefits": ["A versatile herb and spice used in cuisines globally. Also known for its digestive and antioxidant medicinal properties."]
+        },
+        {
+            "name": "Cotton",
+            "images": [],
+            "description": "A soft, fluffy staple fiber that grows in a boll around the seeds of the cotton plants.",
+            "category": [6, 8],
+            "availability": 250,
+            "instruction": ["Requires a long, warm growing season with plenty of sunshine and moderate rainfall."],
+            "benefits": ["The world's most important natural textile fiber. Cottonseed is used for oil and animal feed."]
+        },
+        {
+            "name": "Cowpea",
+            "images": [],
+            "description": "A type of bean, one of the most important food legume crops in the semi-arid tropics.",
+            "category": [9],
+            "availability": 140,
+            "instruction": ["A heat-loving and drought-tolerant crop that can fix nitrogen in the soil."],
+            "benefits": ["Cultivated for its edible beans and leaves, and used as nutritious fodder for livestock."]
+        },
+        {
+            "name": "Crown of Thorns",
+            "images": [],
+            "description": "A species of Euphorbia, a succulent shrub known for its woody, spiny stems and colorful flower bracts.",
+            "category": [11],
+            "availability": 33,
+            "instruction": ["Prefers full sun and well-draining soil. Water when the soil is dry to the touch. Be cautious of the milky sap."],
+            "benefits": ["A popular, low-maintenance ornamental plant that can bloom year-round in the right conditions."]
+        },
+        {
+            "name": "Cumin",
+            "images": [],
+            "description": "A flowering plant in the parsley family whose seeds are used as a spice.",
+            "category": [4],
+            "availability": 118,
+            "instruction": ["A drought-tolerant, tropical or sub-tropical crop. Requires a hot summer of three to four months."],
+            "benefits": ["An essential spice in many cuisines, especially in Latin American, Middle Eastern, and Indian food."]
+        },
+        {
+            "name": "Date Palm",
+            "images": [],
+            "description": "A palm tree cultivated for its edible sweet fruit.",
+            "category": [6],
+            "availability": 60,
+            "instruction": ["Grows in hot, arid climates and requires abundant water at its roots."],
+            "benefits": ["Produces dates, a highly nutritious fruit. The fronds are used for weaving, providing a source of fiber."]
+        },
+        {
+            "name": "Euphorbia",
+            "images": [],
+            "description": "A very large and diverse genus of flowering plants, ranging from tiny annuals to large trees, many of which are succulents.",
+            "category": [11],
+            "availability": 45,
+            "instruction": ["Care varies widely by species, but most succulent types need bright light and minimal water."],
+            "benefits": ["Many species are grown as ornamentals for their unique forms and flowers."]
+        },
+        {
+            "name": "Fenugreek",
+            "images": [],
+            "description": "An annual plant in the family Fabaceae, with leaves consisting of three small obovate to oblong leaflets.",
+            "category": [4],
+            "availability": 99,
+            "instruction": ["Grows well in full sun and well-drained, loamy soil."],
+            "benefits": ["The seeds are used as a spice, and the leaves are used as a fresh herb. It's also used for medicinal purposes."]
+        },
+        {
+            "name": "Flax",
+            "images": [],
+            "description": "A food and fiber crop that is grown in cooler regions of the world.",
+            "category": [6],
+            "availability": 130,
+            "instruction": ["Plant in early spring in well-drained soil with full sun."],
+            "benefits": ["The source of linen fiber for textiles. Its seeds (flaxseed) are consumed for their high nutritional value and oil."]
+        },
+        {
+            "name": "Garlic",
+            "images": [],
+            "description": "A species in the onion genus, Allium, known for its pungent flavor and aroma.",
+            "category": [1, 4, 7],
+            "availability": 190,
+            "instruction": ["Plant individual cloves in fall for a summer harvest. Requires full sun and fertile soil."],
+            "benefits": ["A staple cooking spice with significant medicinal properties, including antibacterial and cardiovascular benefitss."]
+        },
+        {
+            "name": "Giloy (Tinospora cordifolia)",
+            "images": [],
+            "description": "A large, deciduous climbing shrub with a long history of use in traditional medicine.",
+            "category": [7],
+            "availability": 51,
+            "instruction": ["A hardy plant that can be grown easily by stem cuttings. It needs support to climb."],
+            "benefits": ["Considered a powerful immune-booster in Ayurveda and used to treat a wide range of health conditions."]
+        },
+        {
+            "name": "Ginger",
+            "images": [],
+            "description": "A flowering plant whose rhizome, ginger root, is widely used as a spice and a folk medicine.",
+            "category": [4, 7],
+            "availability": 145,
+            "instruction": ["Grows best in a warm, humid location with partial shade and rich, moist soil."],
+            "benefits": ["A pungent and warming spice for cooking. Well-known for its medicinal ability to treat nausea and inflammation."]
+        },
+        {
+            "name": "Golden Barrel Cactus",
+            "images": [],
+            "description": "A species of cactus known for its striking spherical shape and sharp yellow spines.",
+            "category": [11],
+            "availability": 30,
+            "instruction": ["Requires plenty of direct sunlight and sandy, well-draining soil. Water very sparingly."],
+            "benefits": ["A highly popular ornamental plant for xeriscaping and container gardens due to its low maintenance."]
+        },
+        {
+            "name": "Grapes",
+            "images": [],
+            "description": "A fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis.",
+            "category": [5],
+            "availability": 100,
+            "instruction": ["Grow on vines that require trellising. Need full sun and well-drained soil. Pruning is essential."],
+            "benefits": ["Eaten fresh, dried as raisins, or fermented to make wine and other beverages."]
+        },
+        {
+            "name": "Groundnut (Peanut)",
+            "images": [],
+            "description": "A legume crop grown mainly for its edible seeds.",
+            "category": [3, 8],
+            "availability": 175,
+            "instruction": ["Requires a long, warm growing season. The pods develop underground."],
+            "benefits": ["A major source of cooking oil. The high-protein meal is used as animal feed. A key industrial oilseed crop."]
+        },
+        {
+            "name": "Guinea Grass",
+            "images": [],
+            "description": "A tall, perennial grass that is widely cultivated as a pasture grass.",
+            "category": [9],
+            "availability": 122,
+            "instruction": ["Can be established from seeds or cuttings. It is adaptable to various soil types."],
+            "benefits": ["A high-quality and high-yield fodder grass for grazing animals."]
+        },
+        {
+            "name": "Haworthia",
+            "images": [],
+            "description": "A large genus of small succulent plants, often resembling miniature aloes, with distinctive leaf patterns.",
+            "category": [11],
+            "availability": 53,
+            "instruction": ["Prefers bright, indirect light and infrequent watering. Use a gritty, well-draining soil mix."],
+            "benefits": ["Popular as low-maintenance, decorative houseplants, perfect for small spaces."]
+        },
+        {
+            "name": "Hibiscus",
+            "images": [],
+            "description": "A genus of flowering plants in the mallow family, known for their large, showy, trumpet-shaped flowers.",
+            "category": [10],
+            "availability": 78,
+            "instruction": ["Thrives in full sun with moist, well-drained soil. Regular watering is needed for best blooms."],
+            "benefits": ["A beautiful ornamental plant. Your notes also mention its 'medicinal property,' as its flowers are used to make herbal tea."]
+        },
+        {
+            "name": "Jade Plant",
+            "images": [],
+            "description": "A popular succulent houseplant with thick, woody stems and fleshy, glossy green leaves.",
+            "category": [10],
+            "availability": 62,
+            "instruction": ["Needs bright light and well-draining soil. Water thoroughly, then allow the soil to dry out completely before watering again."],
+            "benefits": ["A low-maintenance, long-lasting houseplant. Noted in your list as an 'air purifier'."]
+        },
+        {
+            "name": "Jowar (Sorghum)",
+            "images": [],
+            "description": "A genus of flowering plants in the grass family, cultivated for grain and fodder.",
+            "category": [9],
+            "availability": 185,
+            "instruction": ["A drought-tolerant crop that grows well in hot, arid regions."],
+            "benefits": ["The grain is a staple food in many parts of the world, and the entire plant is used as animal fodder."]
+        },
+        {
+            "name": "Jute",
+            "images": [],
+            "description": "A long, soft, shiny bast fiber that can be spun into coarse, strong threads.",
+            "category": [6, 8],
+            "availability": 195,
+            "instruction": ["A rainy season crop that grows best in warm, humid climates."],
+            "benefits": ["A key industrial fiber, second only to cotton, used for making burlap, twine, and other textiles."]
+        },
+        {
+            "name": "Kale",
+            "images": [],
+            "description": "A leafy green vegetable in the cabbage family, with green or purple leaves.",
+            "category": [1],
+            "availability": 95,
+            "instruction": ["A cool-season crop that grows best in well-drained, fertile soil."],
+            "benefits": ["A highly nutritious superfood, rich in vitamins A, C, and K, as well as antioxidants."]
+        },
+        {
+            "name": "Kenaf",
+            "images": [],
+            "description": "A plant in the mallow family, cultivated for its fiber.",
+            "category": [6],
+            "availability": 112,
+            "instruction": ["A fast-growing plant that requires a warm season to mature."],
+            "benefits": ["The fiber is used in the production of paper, rope, and insulation materials."]
+        },
+        {
+            "name": "Lemon",
+            "images": [],
+            "description": "A species of small evergreen tree whose fruit is used for culinary and non-culinary purposes throughout the world.",
+            "category": [5],
+            "availability": 105,
+            "instruction": ["Grow in a sunny, protected location with well-drained soil. Requires regular watering."],
+            "benefits": ["The juice is widely used to make beverages like lemonade and to flavor foods. Excellent source of Vitamin C."]
+        },
+        {
+            "name": "Mahua",
+            "images": [],
+            "description": "An Indian tropical tree grown for its oil-rich seeds and sweet, fleshy flowers.",
+            "category": [3],
+            "availability": 40,
+            "instruction": ["A hardy, drought-resistant tree that grows well in dry, tropical climates."],
+            "benefits": ["The non-edible oil from its seeds is used for soap making and lighting. The flowers are edible and used to produce a traditional alcoholic drink."]
+        },
+        {
+            "name": "Maize (Corn)",
+            "images": [],
+            "description": "A tall annual cereal grass that yields large grains, or kernels, set in rows on a cob.",
+            "category": [2, 8, 9],
+            "availability": 300,
+            "instruction": ["Plant in blocks for better pollination. Requires rich soil, full sun, and consistent watering."],
+            "benefits": ["A staple food, a key ingredient in livestock fodder, and used industrially for biofuels and bioplastics."]
+        },
+        {
+            "name": "Mammillaria",
+            "images": [],
+            "description": "One of the largest genera in the cactus family, known for its small, round shape and nipple-like tubercles.",
+            "category": [11],
+            "availability": 48,
+            "instruction": ["Requires bright light and well-draining cactus mix. Water sparingly."],
+            "benefits": ["Popular and easy-to-grow cacti for collectors and beginners, available in many varieties."]
+        },
+        {
+            "name": "Marigold",
+            "images": [],
+            "description": "A hardy, annual plant known for its cheerful, brightly colored flowers.",
+            "category": [10],
+            "availability": 120,
+            "instruction": ["Easy to grow from seed. Plant in a sunny spot with moderately fertile, well-drained soil."],
+            "benefits": ["A vibrant decorative flower. Your notes highlight its use as a 'natural insect repellent' in gardens."]
+        },
+        {
+            "name": "Millets",
+            "images": [],
+            "description": "A group of highly variable small-seeded grasses, widely grown around the world as cereal crops.",
+            "category": [2],
+            "availability": 160,
+            "instruction": ["Hardy, drought-resistant crops that are well-suited for semi-arid regions."],
+            "benefits": ["A staple food in parts of Asia and Africa. Also used for animal fodder. They are gluten-free and nutritious."]
+        },
+        {
+            "name": "Money Plant (Pothos)",
+            "images": [],
+            "description": "A popular, trailing vine houseplant with heart-shaped leaves, often variegated with yellow or white.",
+            "category": [10],
+            "availability": 90,
+            "instruction": ["Extremely easy to care for. Thrives in a variety of light conditions and is tolerant of neglect."],
+            "benefits": ["Famously known as an excellent 'air purifier'. Also believed to bring good luck."]
+        },
+        {
+            "name": "Moon Cactus",
+            "images": [],
+            "description": "A unique type of cactus that is actually two cacti grafted together: a colorful Gymnocalycium top on a rootstock base.",
+            "category": [11],
+            "availability": 37,
+            "instruction": ["Prefers bright, indirect light and minimal watering. The colorful top cannot survive on its own."],
+            "benefits": ["A popular and colorful novelty houseplant that adds a pop of color to any collection."]
+        },
+        {
+            "name": "Mustard",
+            "images": [],
+            "description": "A plant species in the genera Brassica and Sinapis, cultivated for their small round seeds and leaves.",
+            "category": [3, 8],
+            "availability": 180,
+            "instruction": ["A cool-season crop that can be grown quickly from seed."],
+            "benefits": ["The seeds are used to make mustard condiment and mustard oil. The leaves are eaten as greens. A key industrial oilseed."]
+        },
+        {
+            "name": "Neem",
+            "images": [],
+            "description": "A fast-growing tree of the mahogany family, known for its bitter leaves and versatile properties.",
+            "category": [7, 8],
+            "availability": 75,
+            "instruction": ["A hardy, drought-resistant tree. Plant in a sunny spot with well-draining soil."],
+            "benefits": ["Valued for its medicinal properties and as a natural pesticide in industrial agriculture."]
+        },
+        {
+            "name": "Niger",
+            "images": [],
+            "description": "An oilseed crop, grown for its edible oil and seeds.",
+            "category": [3],
+            "availability": 80,
+            "instruction": ["Grown in light soils in subtropical regions. It requires moderate rainfall."],
+            "benefits": ["The seeds produce a high-quality oil. It is also used in birdseed mixes. Your notes highlight its industrial use."]
+        },
+        {
+            "name": "Oat",
+            "images": [],
+            "description": "A species of cereal grain grown for its seed, which is known by the same name.",
+            "category": [2, 9],
+            "availability": 210,
+            "instruction": ["A cool-season crop that performs well in moist climates."],
+            "benefits": ["Primarily grown as livestock fodder. Also processed into rolled oats (oatmeal) for human consumption."]
+        },
+        {
+            "name": "Oil Palm",
+            "images": [],
+            "description": "A species of palm commonly referred to as the African oil palm, it is the principal source of palm oil.",
+            "category": [3],
+            "availability": 155,
+            "instruction": ["Requires a tropical climate with high rainfall and humidity."],
+            "benefits": ["The world's most productive oil crop, producing palm oil used in a vast range of food and consumer products."]
+        },
+        {
+            "name": "Okra",
+            "images": [],
+            "description": "A flowering plant in the mallow family valued for its edible green seed pods.",
+            "category": [1],
+            "availability": 110,
+            "instruction": ["A warm-season vegetable that needs full sun and fertile, well-drained soil."],
+            "benefits": ["A common vegetable in Southern US, Caribbean, and Indian cuisines, known for its unique texture."]
+        },
+        {
+            "name": "Opuntia (Prickly Pear)",
+            "images": [],
+            "description": "A genus in the cactus family, characterized by its flat, fleshy pads (cladodes).",
+            "category": [11],
+            "availability": 41,
+            "instruction": ["Extremely drought-tolerant. Plant in full sun and very well-draining soil."],
+            "benefits": ["An ornamental plant for arid gardens. The pads (nopales) and fruit (tuna) of some species are edible."]
+        },
+        {
+            "name": "Orchids",
+            "images": [],
+            "description": "A diverse and widespread family of flowering plants with blooms that are often colorful and fragrant.",
+            "category": [10],
+            "availability": 68,
+            "instruction": ["Care varies greatly by species. Most common types need bright, indirect light and a special orchid potting mix."],
+            "benefits": ["Highly prized as ornamental plants for their exotic and beautiful flowers."]
+        },
+        {
+            "name": "Papaya",
+            "images": [],
+            "description": "The fruit of the plant Carica papaya, a large, tree-like plant.",
+            "category": [1],
+            "availability": 80,
+            "instruction": ["A tropical plant that needs plenty of sunlight, heat, and moisture."],
+            "benefits": ["A sweet, fleshy fruit rich in vitamins. Contains the enzyme papain, used as a meat tenderizer."]
+        },
+        {
+            "name": "Para Grass",
+            "images": [],
+            "description": "A species of grass known as a valuable pasture and fodder grass.",
+            "category": [9],
+            "availability": 115,
+            "instruction": ["A perennial grass that thrives in wet, marshy areas in tropical climates."],
+            "benefits": ["A highly palatable and productive fodder for cattle, especially in wet regions."]
+        },
+        {
+            "name": "Pea",
+            "images": [],
+            "description": "A small spherical seed of the pod fruit Pisum sativum.",
+            "category": [1],
+            "availability": 165,
+            "instruction": ["A cool-season crop. Plant in early spring in well-drained soil and provide support for climbing varieties."],
+            "benefits": ["A common vegetable, eaten cooked or raw. A good source of protein and fiber."]
+        },
+        {
+            "name": "Peace Lily",
+            "images": [],
+            "description": "A popular indoor plant with dark green leaves and unique white flowers called spathes.",
+            "category": [10],
+            "availability": 50,
+            "instruction": ["Thrives in indirect light and consistently moist soil. Avoid overwatering."],
+            "benefits": ["Noted as an 'air purifier' that removes toxins. It is important to note, as you did, that it is 'toxic to cats'."]
+        },
+        {
+            "name": "Peppermint",
+            "images": [],
+            "description": "A hybrid mint, a cross between watermint and spearmint. An aromatic herb in the mint family.",
+            "category": [7],
+            "availability": 85,
+            "instruction": ["Spreads vigorously. Plant in a container or with root barriers in moist soil with partial shade."],
+            "benefits": ["Used for flavoring and in herbal tea. Its oil is widely used for medicinal purposes, especially for digestion."]
+        },
+        {
+            "name": "Pineapple",
+            "images": [],
+            "description": "A tropical plant with an edible fruit, consisting of coalesced berries.",
+            "category": [6],
+            "availability": 95,
+            "instruction": ["Grows from a crown cutting. Requires well-drained, acidic soil and a warm, sunny climate."],
+            "benefits": ["A popular tropical fruit. The leaves are the source of piña fiber, a strong, fine textile fiber."]
+        },
+        {
+            "name": "Pomegranate",
+            "images": [],
+            "description": "A fruit-bearing deciduous shrub or small tree that produces a round fruit with a hard, reddish peel and juicy, edible arils.",
+            "category": [1],
+            "availability": 72,
+            "instruction": ["A drought-tolerant plant that requires hot summers to fruit well. Plant in full sun."],
+            "benefits": ["The seeds are rich in antioxidants and vitamins. Used in cooking, juice, and traditional medicine."]
+        },
+        {
+            "name": "Potato",
+            "images": [],
+            "description": "A starchy root vegetable that is one of the world's most common food staples.",
+            "category": [1, 8],
+            "availability": 280,
+            "instruction": ["Plant seed potatoes in loose, well-drained soil. Keep the soil consistently moist."],
+            "benefits": ["A key food source rich in potassium and Vitamin C. Also used industrially to produce starch and alcohol."]
+        },
+        {
+            "name": "Prickly Pear (Opuntia)",
+            "images": [],
+            "description": "A genus in the cactus family, characterized by its flat, fleshy pads (cladodes).",
+            "category": [11],
+            "availability": 41,
+            "instruction": ["Extremely drought-tolerant. Plant in full sun and very well-draining soil."],
+            "benefits": ["An ornamental plant for arid gardens. The pads (nopales) and fruit (tuna) of some species are edible."]
+        },
+        {
+            "name": "Quinoa",
+            "images": [],
+            "description": "A flowering plant in the amaranth family grown as a crop primarily for its edible seeds.",
+            "category": [2],
+            "availability": 130,
+            "instruction": ["A hardy crop that prefers cool temperatures and well-drained soil."],
+            "benefits": ["A highly nutritious, gluten-free pseudocereal, valued as a complete protein source."]
+        },
+        {
+            "name": "Ramie",
+            "images": [],
+            "description": "A flowering plant in the nettle family, one of the oldest fiber crops.",
+            "category": [6],
+            "availability": 90,
+            "instruction": ["A perennial crop that produces a high number of stems. Requires a warm, humid climate."],
+            "benefits": ["Produces a strong natural fiber, known for its ability to hold shape and reduce wrinkling. It is similar to linen."]
+        },
+        {
+            "name": "Rapeseed",
+            "images": [],
+            "description": "A bright-yellow flowering member of the family Brassicaceae, cultivated mainly for its oil-rich seed.",
+            "category": [3],
+            "availability": 170,
+            "instruction": ["A cool-season crop typically grown in rotation with cereals like wheat."],
+            "benefits": ["The source of canola oil for cooking and biodiesel fuel. The meal is used as animal feed."]
+        },
+        {
+            "name": "Rice",
+            "images": [],
+            "description": "A cereal grain that is the most widely consumed staple food for a large part of the world's human population.",
+            "category": [2, 8],
+            "availability": 350,
+            "instruction": ["Typically grown in flooded paddies, requiring significant water and a long, warm growing season."],
+            "benefits": ["Primary source of carbohydrates for billions. Used industrially for products like rice flour and sake."]
+        },
+        {
+            "name": "Rose",
+            "images": [],
+            "description": "A woody perennial flowering plant of the genus Rosa, in the family Rosaceae.",
+            "category": [10],
+            "availability": 150,
+            "instruction": ["Plant in a sunny location with rich, well-drained soil. Requires regular watering, fertilizing, and pruning."],
+            "benefits": ["One of the most popular and culturally significant ornamental flowers in the world."]
+        },
+        {
+            "name": "Rubber",
+            "images": [],
+            "description": "The rubber tree is a tall deciduous tree, the primary source of natural rubber.",
+            "category": [8],
+            "availability": 140,
+            "instruction": ["Grown in large plantations in tropical climates with high rainfall."],
+            "benefits": ["The latex sap is harvested and processed into natural rubber, a critical industrial material."]
+        },
+        {
+            "name": "Rye",
+            "images": [],
+            "description": "A grass grown extensively as a grain, a cover crop, and a forage crop.",
+            "category": [2],
+            "availability": 190,
+            "instruction": ["An extremely hardy cereal that can grow in poor soils and cold conditions."],
+            "benefits": ["Used to make rye bread, whiskey, and vodka. Also valued as a soil-improving cover crop."]
+        },
+        {
+            "name": "Safflower",
+            "images": [],
+            "description": "A highly branched, herbaceous, thistle-like annual plant.",
+            "category": [3],
+            "availability": 100,
+            "instruction": ["A drought-tolerant crop grown in arid environments."],
+            "benefits": ["Cultivated for its oil, which is used for cooking. Your notes highlight its use in 'medicine & biofuel'."]
+        },
+        {
+            "name": "Screw Pine (Pandanus)",
+            "images": [],
+            "description": "A genus of palms or palm-like trees and shrubs, known for the spiral arrangement of their leaves.",
+            "category": [6],
+            "availability": 65,
+            "instruction": ["Thrives in tropical and subtropical coastal areas."],
+            "benefits": ["The leaves are used for weaving mats, baskets, and other handicrafts, providing a durable fiber."]
+        },
+        {
+            "name": "Sedum",
+            "images": [],
+            "description": "A large genus of flowering plants, also known as stonecrops, typically with fleshy, water-storing leaves.",
+            "category": [11],
+            "availability": 70,
+            "instruction": ["Generally hardy and easy to grow. They prefer full sun and well-drained soil."],
+            "benefits": ["Popular ornamental succulents for rock gardens, ground cover, and containers."]
+        },
+        {
+            "name": "Sesame",
+            "images": [],
+            "description": "A flowering plant in the genus Sesamum, cultivated for its edible seeds.",
+            "category": [3],
+            "availability": 140,
+            "instruction": ["A drought-tolerant crop that grows well in tropical and subtropical regions."],
+            "benefits": ["The seeds are used whole in cooking or pressed to produce sesame oil, a flavorful cooking oil."]
+        },
+        {
+            "name": "Sesbania",
+            "images": [],
+            "description": "A genus of flowering plants in the pea family, known as nitrogen-fixing shrubs and trees.",
+            "category": [9],
+            "availability": 95,
+            "instruction": ["Fast-growing plants that adapt to a wide range of soils, including waterlogged and saline conditions."],
+            "benefits": ["Valuable as a green manure crop to improve soil fertility and as nutritious fodder for livestock."]
+        },
+        {
+            "name": "Shatavari",
+            "images": [],
+            "description": "A species of asparagus common throughout Nepal, Sri Lanka, India, and the Himalayas.",
+            "category": [7],
+            "availability": 55,
+            "instruction": ["A climbing plant that grows best in well-drained, fertile soil."],
+            "benefits": ["The roots are used in Ayurvedic medicine, primarily as a reproductive tonic for women."]
+        },
+        {
+            "name": "Silk Cotton Tree",
+            "images": [],
+            "description": "A large tropical tree with a straight trunk covered in spines, known for the cotton-like fiber in its seed pods.",
+            "category": [6],
+            "availability": 45,
+            "instruction": ["A fast-growing tree that prefers tropical climates."],
+            "benefits": ["The fiber (kapok) is buoyant, water-resistant, and brittle, used as a stuffing for mattresses, pillows, and life jackets."]
+        },
+        {
+            "name": "Sisal",
+            "images": [],
+            "description": "A species of Agave, a hardy plant grown for its stiff fiber.",
+            "category": [6],
+            "availability": 120,
+            "instruction": ["A drought-resistant plant that thrives in hot, arid climates."],
+            "benefits": ["The fiber is traditionally used for rope, twine, and other cordage."]
+        },
+        {
+            "name": "Snake Plant",
+            "images": [],
+            "description": "A species of flowering plant in the family Asparagaceae, known for its stiff, upright, sword-like leaves.",
+            "category": [10],
+            "availability": 85,
+            "instruction": ["Extremely tolerant of low light and irregular watering. Plant in well-draining soil."],
+            "benefits": ["A very popular and low-maintenance houseplant. Your notes highlight it as an 'air purifier'."]
+        },
+        {
+            "name": "Sorghum",
+            "images": [],
+            "description": "A genus of flowering plants in the grass family, cultivated for grain and fodder.",
+            "category": [2, 9],
+            "availability": 230,
+            "instruction": ["A drought-tolerant crop that grows well in hot, arid regions."],
+            "benefits": ["The grain is a staple food in many parts of the world, and the entire plant is used as animal fodder."]
+        },
+        {
+            "name": "Soy Beans",
+            "images": [],
+            "description": "A species of legume native to East Asia, widely grown for its edible bean.",
+            "category": [3],
+            "availability": 260,
+            "instruction": ["A warm-season crop that requires fertile soil and regular moisture."],
+            "benefits": ["A major global crop used for its high protein content and oil. Used to make tofu, soy milk, and animal feed. A key 'industrial plant' as noted."]
+        },
+        {
+            "name": "Spider Plant",
+            "images": [],
+            "description": "A flowering perennial herb with long, arching, grass-like leaves, known for producing baby spiderettes.",
+            "category": [10],
+            "availability": 95,
+            "instruction": ["Very easy to grow. Prefers bright, indirect light and is adaptable to various conditions."],
+            "benefits": ["A classic, easy-to-propagate houseplant. Noted in your list as an 'air purifier'."]
+        },
+        {
+            "name": "Spinach",
+            "images": [],
+            "description": "A leafy green flowering plant native to central and western Asia.",
+            "category": [1],
+            "availability": 150,
+            "instruction": ["A cool-season crop that grows best in moist, nitrogen-rich soil."],
+            "benefits": ["A highly nutritious vegetable, rich in iron, vitamins A and C, and antioxidants."]
+        },
+        {
+            "name": "Subabul (Leucaena leucocephala)",
+            "images": [],
+            "description": "A small, fast-growing mimosoid tree, known as a 'miracle tree' for its variety of uses.",
+            "category": [9],
+            "availability": 105,
+            "instruction": ["A hardy, drought-resistant tree that can be grown in a wide range of soils."],
+            "benefits": ["Used for reforestation, firewood, and as a highly nutritious source of fodder for livestock."]
+        },
+        {
+            "name": "Sugarcane",
+            "images": [],
+            "description": "A species of tall, perennial grass that is used for sugar production.",
+            "category": [5, 8],
+            "availability": 240,
+            "instruction": ["A tropical plant that requires high temperatures and high rainfall to thrive."],
+            "benefits": ["The primary source of the world's sugar. Also used to produce molasses, rum, and biofuel (ethanol)."]
+        },
+        {
+            "name": "Sunflower",
+            "images": [],
+            "description": "A large annual flower known for its bright, sun-like appearance and edible seeds.",
+            "category": [3, 7],
+            "availability": 115,
+            "instruction": ["Plant in a sunny location with well-drained soil. Provide support as they grow tall."],
+            "benefits": ["The seeds are a source of food and oil. Your notes highlight its application in 'making industrial medicine'."]
+        },
+        {
+            "name": "Syngonium (Arrowhead Plant)",
+            "images": [],
+            "description": "A genus of flowering plants in the arum family, popular as houseplants for their arrow-shaped leaves.",
+            "category": [10],
+            "availability": 58,
+            "instruction": ["Prefers bright, indirect light and consistently moist soil. Can be grown as a bushy plant or a climbing vine."],
+            "benefits": ["An attractive and easy-care decorative plant, also considered to be an air purifier."]
+        },
+        {
+            "name": "Tamarind",
+            "images": [],
+            "description": "A leguminous tree bearing edible pod-like fruit, which contains a sweet, tangy pulp.",
+            "category": [5],
+            "availability": 77,
+            "instruction": ["A long-lived, tropical tree that is tolerant of drought and wind."],
+            "benefits": ["The pulp is used in beverages, as a flavoring in cuisines around the world, and for 'medicinal purposes' as noted."]
+        },
+        {
+            "name": "Teak",
+            "images": [],
+            "description": "A tropical hardwood tree species, highly valued for its durable and water-resistant wood.",
+            "category": [8],
+            "availability": 88,
+            "instruction": ["Grown in large plantations, requiring a tropical climate with a distinct dry season."],
+            "benefits": ["A premier timber used for high-end furniture, boat building, and exterior construction due to its durability."]
+        },
+        {
+            "name": "Tobacco",
+            "images": [],
+            "description": "A plant within the nightshade family, grown for its leaves which are dried and fermented before being put in tobacco products.",
+            "category": [8],
+            "availability": 160,
+            "instruction": ["A nutrient-intensive crop that requires well-drained, fertile soil."],
+            "benefits": ["The primary industrial crop used for the production of cigarettes, cigars, and other tobacco products."]
+        },
+        {
+            "name": "Tomato",
+            "images": [],
+            "description": "The edible berry of the plant Solanum lycopersicum, a common garden vegetable.",
+            "category": [1],
+            "availability": 200,
+            "instruction": ["A warm-season crop. Plant in full sun in rich, well-drained soil and provide support/staking."],
+            "benefits": ["A staple food ingredient used in countless dishes worldwide. A good source of Vitamin C and lycopene."]
+        },
+        {
+            "name": "Triticale",
+            "images": [],
+            "description": "A hybrid of wheat (Triticum) and rye (Secale).",
+            "category": [2],
+            "availability": 125,
+            "instruction": ["Combines the yield potential of wheat with the disease tolerance and hardiness of rye."],
+            "benefits": ["Grown mostly as a forage crop for livestock, though some is used in health foods and baking."]
+        },
+        {
+            "name": "Tulsi (Holy Basil)",
+            "images": [],
+            "description": "An aromatic perennial plant in the mint family, native to the Indian subcontinent.",
+            "category": [7],
+            "availability": 95,
+            "instruction": ["Plant in a sunny location with well-drained soil. Water regularly but do not overwater."],
+            "benefits": ["A sacred plant in Hinduism, revered for its wide range of medicinal properties, particularly for reducing stress and boosting immunity."]
+        },
+        {
+            "name": "Turmeric",
+            "images": [],
+            "description": "A flowering plant of the ginger family, the rhizomes of which are used in cooking.",
+            "category": [4, 7],
+            "availability": 160,
+            "instruction": ["A tropical plant that requires warm temperatures and significant rainfall to thrive."],
+            "benefits": ["The ground rhizome is a primary spice in curry powders. It is also widely used in traditional medicine for its anti-inflammatory compound, curcumin."]
+        },
+        {
+            "name": "Wheat",
+            "images": [],
+            "description": "A cereal grain which is a worldwide staple food.",
+            "category": [2],
+            "availability": 400,
+            "instruction": ["A cool-season grass that is grown in a variety of climates worldwide."],
+            "benefits": ["The primary grain used for making bread, pasta, and a vast array of other food products."]
+        },
+        {
+            "name": "Yucca",
+            "images": [],
+            "description": "A genus of perennial shrubs and trees, notable for their rosettes of evergreen, tough, sword-shaped leaves.",
+            "category": [11],
+            "availability": 55,
+            "instruction": ["Extremely drought-tolerant. Prefers full sun and sandy, well-drained soil."],
+            "benefits": ["A bold, architectural plant used in landscaping, especially in arid climates."]
+        },
+        {
+            "name": "ZZ Plant",
+            "images": [],
+            "description": "A flowering plant with smooth, naturally shiny leaves that is known for its tolerance of neglect.",
+            "category": [10],
+            "availability": 60,
+            "instruction": ["Thrives on low light and infrequent watering. Allow the soil to dry out completely between waterings."],
+            "benefits": ["An extremely low-maintenance houseplant. Your notes mention it is an 'air purifier' and is 'believed to attract positive energy'."]
+        }
+    ]
+}
