@@ -1,6 +1,6 @@
 
 import express from 'express';
-import { getAllCategories, getSuggestions, filterPlants } from '../controllers/common.controller';
+import { getAllCategories, getSuggestions, filterPlants, searchPlants } from '../controllers/common.controller';
 
 const router: express.Router = express.Router();
 console.log('Common routes initialized');
@@ -10,5 +10,6 @@ console.log('Common routes initialized');
 router.get('/categories', getAllCategories);
 router.get('/suggest', getSuggestions);
 router.get('/filter', filterPlants);
+router.get('/search', searchPlants);
 
 export default router;

@@ -3,9 +3,10 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { Search, Leaf } from "lucide-react"
+import { Search, Leaf, Loader2 } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
+import { api } from "@/lib/api"
 
 interface Suggestion {
     type: string
@@ -16,35 +17,31 @@ export function Navbar() {
     const [searchQuery, setSearchQuery] = useState("")
     const [suggestions, setSuggestions] = useState<Suggestion[]>([])
     const [showSuggestions, setShowSuggestions] = useState(false)
+    const [loading, setLoading] = useState(false)
 
     // Debounce search suggestions
     useEffect(() => {
-        const timer = setTimeout(() => {
-        if (searchQuery.trim().length > 0) {
-            fetchSuggestions(searchQuery)
-        } else {
-            setSuggestions([])
-            setShowSuggestions(false)
-        }
+        const timer = setTimeout(async () => {
+            if (searchQuery.trim().length > 0) {
+                setLoading(true)
+                try {
+                    const data = await api.getSuggestions(searchQuery)
+                    setSuggestions(data)
+                    setShowSuggestions(true)
+                } catch (error) {
+                    console.error("Error fetching suggestions:", error)
+                    setSuggestions([])
+                } finally {
+                    setLoading(false)
+                }
+            } else {
+                setSuggestions([])
+                setShowSuggestions(false)
+            }
         }, 300)
 
         return () => clearTimeout(timer)
     }, [searchQuery])
-
-    const fetchSuggestions = async (query: string) => {
-        try {
-        const response = await fetch(
-            `${process.env.NEXT_PUBLIC_API_URL}/api/common/suggest?q=${encodeURIComponent(query)}`,
-        )
-        if (response.ok) {
-            const data = await response.json()
-            setSuggestions(data)
-            setShowSuggestions(true)
-        }
-        } catch (error) {
-        console.error("Error fetching suggestions:", error)
-        }
-    }
 
 
     const handleSearch = (e: React.FormEvent) => {
@@ -87,19 +84,23 @@ export function Navbar() {
                 </div>
 
                 {/* Suggestions Dropdown */}
-                {showSuggestions && suggestions.length > 0 && (
+                {showSuggestions && (loading || suggestions.length > 0) && (
                     <div className="absolute top-full left-0 right-0 bg-popover border border-border rounded-md shadow-lg mt-1 z-50">
-                    {suggestions.map((suggestion, index) => (
-                        <button
-                        key={index}
-                        type="button"
-                        onClick={() => handleSuggestionClick(suggestion)}
-                        className="w-full text-left px-4 py-2 hover:bg-accent hover:text-accent-foreground text-sm"
-                        >
-                        <span className="text-xs text-muted-foreground uppercase">{suggestion.type}</span>
-                        <div>{suggestion.value}</div>
-                        </button>
-                    ))}
+                        {loading ? (
+                            <div className="flex items-center justify-center p-4">
+                                <Loader2 className="h-4 w-4 animate-spin text-primary" />
+                            </div>
+                        ) : suggestions.map((suggestion, index) => (
+                            <button
+                                key={index}
+                                type="button"
+                                onClick={() => handleSuggestionClick(suggestion)}
+                                className="w-full text-left px-4 py-2 hover:bg-accent hover:text-accent-foreground text-sm"
+                            >
+                                <span className="text-xs text-muted-foreground uppercase">{suggestion.type}</span>
+                                <div>{suggestion.value}</div>
+                            </button>
+                        ))}
                     </div>
                 )}
                 </form>

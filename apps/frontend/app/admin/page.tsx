@@ -11,7 +11,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Badge } from "@/components/ui/badge"
 import { Trash2, Plus, Leaf } from "lucide-react"
-import { api, type Plant, type Category, type PlantCreate } from "@/lib/api"
+import { api, type PlantCreate } from "@/lib/api"
+import type { Plant, Category } from "@/lib/types"
 import { toast } from "sonner"
 
 export default function AdminPage() {
