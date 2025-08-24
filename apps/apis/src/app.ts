@@ -5,6 +5,7 @@ import helmet from 'helmet';
 const app: Express = express();
 
 // Middleware
+console.log('Initializing middleware...');
 app.use(cors());
 app.use(helmet());
 app.use(express.json());
@@ -18,6 +19,7 @@ import plantRoutes from './routes/plant.route';
 import categoryRoutes from './routes/category.route';
 import commonRoutes from './routes/common.route';
 
+console.log('Registering routes...');
 app.use('/api/plants', plantRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/common', commonRoutes);

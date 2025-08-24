@@ -48,6 +48,9 @@ export function errorHandler(
     if (statusCode === 500) {
         // eslint-disable-next-line no-console
         console.error('Uncaught error:', err);
+    } else {
+        // eslint-disable-next-line no-console
+        console.warn('Handled error:', message);
     }
 
     res.status(statusCode).json({

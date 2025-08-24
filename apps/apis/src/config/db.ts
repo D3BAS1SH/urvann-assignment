@@ -6,8 +6,8 @@ const connectDB = async () => {
     throw new Error('MONGODB_URI not set in environment variables');
   }
   try {
-    await mongoose.connect(MONGODB_URI);
-    console.log('MongoDB connected');
+  await mongoose.connect(MONGODB_URI);
+  console.log('MongoDB connected');
   } catch (error) {
     console.error('MongoDB connection error:', error);
     process.exit(1);

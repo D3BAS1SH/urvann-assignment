@@ -8,6 +8,7 @@ import {
 } from '../controllers/plant.controller';
 
 const router: express.Router = express.Router();
+console.log('Plant routes initialized');
 
 router.post('/', createPlant);
 router.put('/:id', updatePlant);

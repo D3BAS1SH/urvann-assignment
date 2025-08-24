@@ -9,11 +9,14 @@ import { asyncHandler } from '../utils/asyncHandler';
  * @returns {object[]} 200 - Array of categories with _id and category name
  */
 export const getAllCategories = asyncHandler(async (req, res) => {
+    console.log('getAllCategories called');
     const categories = await Category.find({}, { _id: 1, category: 1 });
     res.json(categories);
+    console.log('getAllCategories returned', categories.length, 'categories');
 });
 
 export const getSuggestions = asyncHandler(async (req, res) => {
+    console.log('getSuggestions called with query:', req.query.q);
     const q = req.query.q as string;
     if (!q) return res.json([]);
     const plantResults = await Plant.find({ name: { $regex: q, $options: 'i' } }).limit(7).select('name');
@@ -23,9 +26,11 @@ export const getSuggestions = asyncHandler(async (req, res) => {
         ...categoryResults.map(c => ({ type: 'category', value: c.category }))
     ].slice(0, 7);
     res.json(suggestions);
+    console.log('getSuggestions returned', suggestions.length, 'suggestions');
 });
 
 export const filterPlants = asyncHandler(async (req, res) => {
+    console.log('filterPlants called with query:', req.query);
     const { category, minPrice, maxPrice, available } = req.query;
     const filter: any = {};
     if (category) filter.category = category;
@@ -35,4 +40,5 @@ export const filterPlants = asyncHandler(async (req, res) => {
     if (available !== undefined) filter.availability = { $gt: 0 };
     const plants = await Plant.find(filter);
     res.json(plants);
+    console.log('filterPlants returned', plants.length, 'plants');
 });

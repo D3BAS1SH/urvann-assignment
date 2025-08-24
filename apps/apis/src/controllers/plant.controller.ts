@@ -16,6 +16,7 @@ import { ApiError } from '../utils/apiError';
  * @returns {object} 201 - Created plant object
  */
 export const createPlant = asyncHandler(async (req, res) => {
+    console.log('createPlant called with body:', req.body);
     const { name, price, images, category, availability, instruction, benefits } = req.body;
     if (!name || typeof name !== 'string' || name.length < 2 || name.length > 100) {
         throw new ApiError(400, 'Name is required and must be 2-100 characters.');
@@ -39,6 +40,7 @@ export const createPlant = asyncHandler(async (req, res) => {
         throw new ApiError(400, 'Benefits must be an array.');
     }
     const plant = await Plant.create({ name, price, images, category, availability, instruction, benefits });
+    console.log('Plant created:', plant._id);
     res.status(201).json(plant);
 });
 
@@ -58,6 +60,7 @@ export const createPlant = asyncHandler(async (req, res) => {
  * @throws 404 if plant not found
  */
 export const updatePlant = asyncHandler(async (req, res) => {
+    console.log('updatePlant called for id:', req.params.id, 'with body:', req.body);
     const update: any = {};
     if ('name' in req.body) {
         if (typeof req.body.name !== 'string' || req.body.name.length < 2 || req.body.name.length > 100) {
@@ -106,6 +109,9 @@ export const updatePlant = asyncHandler(async (req, res) => {
         update,
         { new: true, runValidators: true }
     );
+    if (plant) {
+        console.log('Plant updated:', plant._id);
+    }
     if (!plant) throw new ApiError(404, 'Plant not found');
     res.json(plant);
 });
@@ -118,9 +124,11 @@ export const updatePlant = asyncHandler(async (req, res) => {
  * @throws 404 if plant not found
  */
 export const deletePlant = asyncHandler(async (req, res) => {
+    console.log('deletePlant called for id:', req.params.id);
     const plant = await Plant.findByIdAndDelete(req.params.id);
     if (!plant) throw new ApiError(404, 'Plant not found');
     res.json({ message: 'Plant deleted' });
+    console.log('Plant deleted:', req.params.id);
 });
 
 /**
@@ -130,6 +138,7 @@ export const deletePlant = asyncHandler(async (req, res) => {
  * @returns {object[]} 200 - Array of plant objects (basic fields)
  */
 export const getPlants = asyncHandler(async (req, res) => {
+    console.log('getPlants called with query:', req.query);
     const page = parseInt(req.query.page as string) || 1;
     const limit = 16;
     const skip = (page - 1) * limit;
@@ -139,6 +148,7 @@ export const getPlants = asyncHandler(async (req, res) => {
         .skip(skip)
         .limit(limit);
     res.json(plants);
+    console.log('getPlants returned', plants.length, 'plants');
 });
 
 /**
@@ -149,7 +159,9 @@ export const getPlants = asyncHandler(async (req, res) => {
  * @throws 404 if plant not found
  */
 export const getPlantById = asyncHandler(async (req, res) => {
+    console.log('getPlantById called for id:', req.params.id);
     const plant = await Plant.findById(req.params.id).populate('category');
     if (!plant) throw new ApiError(404, 'Plant not found');
     res.json(plant);
+    console.log('getPlantById returned plant:', plant?._id);
 });

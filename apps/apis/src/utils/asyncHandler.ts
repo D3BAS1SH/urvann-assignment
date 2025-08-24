@@ -11,5 +11,6 @@ export const asyncHandler = (fn: AsyncHandler) => (
   res: Response,
   next: NextFunction
 ) => {
+  console.log('asyncHandler invoked for', fn.name || 'anonymous function');
   Promise.resolve(fn(req, res, next)).catch(next);
 };
