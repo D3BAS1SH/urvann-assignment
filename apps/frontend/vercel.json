@@ -1,6 +1,0 @@
-{
-    "buildCommand": "cd ../.. && pnpm install && pnpm run build --filter=web...",
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
-    "installCommand": "cd ../.. && pnpm install --filter=web...",
-    "outputDirectory": ".next"
-}
